@@ -1,0 +1,280 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #f2918b;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-size: 2.3rem;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+i {
+    font-size: 3rem;
+    color: #f2918b;
+    padding: 0.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons1 {
+    margin: 1rem;
+}
+
+.icons2 {
+    margin: 1rem;
+}
+.logo {
+    margin: 1rem;
+}
+
+.menu {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.menu li {
+    float: left;
+}
+  
+.menu li a {
+    display: block;
+    color: #1d1d1b;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+}
+  
+  .menu li a:hover {
+    font-size: 2.4rem;
+    color: #f2918b;
+}
+  .header i:hover {
+    color: #eea6a3;
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+.bestsellers {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.bestsellers img {
+    height: 399px;
+}
+
+.best1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.best2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.best3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.aboutimg { 
+    display: flex;
+    width: auto;
+}
+
+.aboutmobileimg {
+    display: none;
+}
+.abouttext {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.footer {
+    background-color: #f2918b;
+    display: flex;
+}
+
+.border {
+    margin-bottom: -1rem;
+    width: 100%;
+    padding: 0;
+}
+
+.border img {
+    margin-bottom: -1rem;
+    width: 100%;
+    padding: 0;
+}
+
+.columncontact {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 3rem;
+    height: 100%;
+
+}
+
+.columncontact p {
+    font-size: 1.7rem;    
+}
+
+.columnfollow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.columnfollow i {
+    color: white;
+    font-size: 7rem;
+}
+
+.columnfaq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    margin-left: 3rem;
+
+
+}
+
+.columnfaq li a {
+    display: block;
+    color: #1d1d1b;
+    text-decoration: none;
+  }
+.columnfaq li a:hover {
+    color: white;
+  }
+
+.columnfaq li  {
+    display: block;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+
+.columnfaq ul  {
+    list-style-type: none;  
+    padding: 0;
+}
+
+
+.contactinfo {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts p {
+    margin-right: 1rem;
+}
+
+.contactform {
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+label {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+input {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+textarea {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.button {
+    background-color: #f2918b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+  

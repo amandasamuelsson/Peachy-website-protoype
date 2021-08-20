@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1040px) {
+    .menu {
+        width: auto;
+    }
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .fade-slide {
+        height: 500px;
+    }
+    
+    .image img {
+        height: 500px;
+    }
+    .about {
+        width: 85%;
+    }
+  }
+
+@media only screen and (max-width: 640px) {
+    .header {
+        width: auto;
+    }
+    .logo img{
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .icons1 {
+        margin: 0rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .icons2 {
+        margin: 0rem;
+        display: flex;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburgermenu {
+        display: flex;
+    }
+    .fade-slide {
+        width: 100%;
+        height: 300px;
+    }
+    .image img {
+        width: 100%;
+        height: 300px;
+
+    }
+    .bestsellers {
+        width: 85%;
+        height: auto;
+    }
+    .bestsellers img{
+        height: 180px;
+    }
+    .about {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutimg {
+        display: none;
+    }
+    .aboutmobileimg {
+        display: flex;
+    }
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .border img {
+        width: 640px;
+        padding: 0;
+    }
+    .border {
+        margin: 0;
+    }
+
+    .columncontact {
+        margin: 0;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .columnfollow {
+        margin: 0;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .iconsfollow {
+        display: flex;
+        flex-direction: row;
+    }
+    .columnfaq {
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .contactinfo{
+        width: 90%;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactform {
+        width: 90%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+    }
+    label {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    input {
+        width: 100%;
+        margin: 0;
+    }
+    textarea {
+        width: 100%;
+        margin: 0;
+    }
+    button {
+        width: 35%;
+    }
+    
+  }
